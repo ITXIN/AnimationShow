@@ -105,11 +105,14 @@
     {
         timer =  [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(loadingTimer) userInfo:nil repeats:YES];
         [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSDefaultRunLoopMode];
+        sender.hidden  = YES;
     }else
     {
         [timer invalidate];
         timer = nil;
     }
+    
+   
 }
 
 #pragma mark -

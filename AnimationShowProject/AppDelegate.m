@@ -8,8 +8,21 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-@interface AppDelegate ()
 
+#if DEBUG
+#import <FBMemoryProfiler/FBMemoryProfiler.h>
+#import <FBRetainCycleDetector/FBRetainCycleDetector.h>
+#import "CacheCleanerPlugin.h"
+#import "RetainCycleLoggerPlugin.h"
+#import "FLEXManager.h"
+#endif
+
+@interface AppDelegate ()
+{
+#if DEBUG
+    FBMemoryProfiler *memoryProfiler;
+#endif
+}
 @end
 
 @implementation AppDelegate
@@ -17,11 +30,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+#if DEBUG
+    memoryProfiler = [[FBMemoryProfiler alloc] initWithPlugins:@[[CacheCleanerPlugin new],
+                                                                 [RetainCycleLoggerPlugin new]]
+                              retainCycleDetectorConfiguration:nil];
+    [memoryProfiler enable];
+    [[FLEXManager sharedManager] showExplorer];
+#endif
+    
+    
     ViewController  *vc = [[ViewController alloc]init];
     UINavigationController *nag = [[UINavigationController alloc]initWithRootViewController:vc];
     self.window.rootViewController = nag;
     return YES;
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

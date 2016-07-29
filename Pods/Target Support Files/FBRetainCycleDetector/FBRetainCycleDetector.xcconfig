@@ -1,0 +1,1 @@
+FBRETAINCYCLEDETECTOR_OTHER_LDFLAGS = -l"c++" -framework "CoreGraphics" -framework "Foundation" -framework "UIKit"

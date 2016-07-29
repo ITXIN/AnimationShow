@@ -18,13 +18,15 @@
 		4C00B6651D3F2EFE00CD4FA2 /* AnimationShowProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00B6641D3F2EFE00CD4FA2 /* AnimationShowProjectUITests.m */; };
 		4C00B6771D3F309D00CD4FA2 /* CirclePointAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00B6741D3F309D00CD4FA2 /* CirclePointAnimationView.m */; };
 		4C00B6781D3F309D00CD4FA2 /* ProgressAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00B6761D3F309D00CD4FA2 /* ProgressAnimationView.m */; };
-		4C00B67B1D3F30A800CD4FA2 /* UIColor+MyColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00B67A1D3F30A800CD4FA2 /* UIColor+MyColor.m */; };
 		4C00B67E1D3F30B500CD4FA2 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00B67D1D3F30B500CD4FA2 /* AnimationViewController.m */; };
 		4C00B6831D3F325C00CD4FA2 /* BasicAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00B6821D3F325C00CD4FA2 /* BasicAnimationVC.m */; };
 		4C00B6861D3F4D2200CD4FA2 /* FireworksView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00B6851D3F4D2200CD4FA2 /* FireworksView.m */; };
 		4C00B6891D3F6C7A00CD4FA2 /* WordsAndDrawerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00B6881D3F6C7A00CD4FA2 /* WordsAndDrawerLayer.m */; };
 		4C24DBC51D40676A00FB6B90 /* CircleAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C24DBC41D40676A00FB6B90 /* CircleAnimationView.m */; };
 		4C24DBC91D40B23800FB6B90 /* DrawLineAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C24DBC81D40B23800FB6B90 /* DrawLineAnimationView.m */; };
+		4CFFF4BA1D4B67BF0074312D /* CacheCleanerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFFF4B51D4B67BF0074312D /* CacheCleanerPlugin.m */; };
+		4CFFF4BB1D4B67BF0074312D /* RetainCycleLoggerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFFF4B71D4B67BF0074312D /* RetainCycleLoggerPlugin.m */; };
+		4CFFF4BC1D4B67BF0074312D /* UIColor+MyColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFFF4B91D4B67BF0074312D /* UIColor+MyColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +68,6 @@
 		4C00B6741D3F309D00CD4FA2 /* CirclePointAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CirclePointAnimationView.m; sourceTree = "<group>"; };
 		4C00B6751D3F309D00CD4FA2 /* ProgressAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressAnimationView.h; sourceTree = "<group>"; };
 		4C00B6761D3F309D00CD4FA2 /* ProgressAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressAnimationView.m; sourceTree = "<group>"; };
-		4C00B6791D3F30A800CD4FA2 /* UIColor+MyColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MyColor.h"; sourceTree = "<group>"; };
-		4C00B67A1D3F30A800CD4FA2 /* UIColor+MyColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MyColor.m"; sourceTree = "<group>"; };
 		4C00B67C1D3F30B500CD4FA2 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
 		4C00B67D1D3F30B500CD4FA2 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
 		4C00B67F1D3F312B00CD4FA2 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -82,6 +82,12 @@
 		4C24DBC41D40676A00FB6B90 /* CircleAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleAnimationView.m; sourceTree = "<group>"; };
 		4C24DBC71D40B23800FB6B90 /* DrawLineAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLineAnimationView.h; sourceTree = "<group>"; };
 		4C24DBC81D40B23800FB6B90 /* DrawLineAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawLineAnimationView.m; sourceTree = "<group>"; };
+		4CFFF4B41D4B67BF0074312D /* CacheCleanerPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheCleanerPlugin.h; sourceTree = "<group>"; };
+		4CFFF4B51D4B67BF0074312D /* CacheCleanerPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheCleanerPlugin.m; sourceTree = "<group>"; };
+		4CFFF4B61D4B67BF0074312D /* RetainCycleLoggerPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetainCycleLoggerPlugin.h; sourceTree = "<group>"; };
+		4CFFF4B71D4B67BF0074312D /* RetainCycleLoggerPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetainCycleLoggerPlugin.m; sourceTree = "<group>"; };
+		4CFFF4B81D4B67BF0074312D /* UIColor+MyColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MyColor.h"; sourceTree = "<group>"; };
+		4CFFF4B91D4B67BF0074312D /* UIColor+MyColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MyColor.m"; sourceTree = "<group>"; };
 		B5478964AECBB025B2F53B8D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E20C744B7A3A81A04A04683A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,9 +143,8 @@
 		4C00B63E1D3F2EFD00CD4FA2 /* AnimationShowProject */ = {
 			isa = PBXGroup;
 			children = (
+				4CFFF4B31D4B67BF0074312D /* Third */,
 				4C00B6721D3F308500CD4FA2 /* Animation */,
-				4C00B6791D3F30A800CD4FA2 /* UIColor+MyColor.h */,
-				4C00B67A1D3F30A800CD4FA2 /* UIColor+MyColor.m */,
 				4C00B6421D3F2EFD00CD4FA2 /* AppDelegate.h */,
 				4C00B6431D3F2EFE00CD4FA2 /* AppDelegate.m */,
 				4C00B6451D3F2EFE00CD4FA2 /* ViewController.h */,
@@ -202,6 +207,19 @@
 				4C24DBC81D40B23800FB6B90 /* DrawLineAnimationView.m */,
 			);
 			path = Animation;
+			sourceTree = "<group>";
+		};
+		4CFFF4B31D4B67BF0074312D /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				4CFFF4B41D4B67BF0074312D /* CacheCleanerPlugin.h */,
+				4CFFF4B51D4B67BF0074312D /* CacheCleanerPlugin.m */,
+				4CFFF4B61D4B67BF0074312D /* RetainCycleLoggerPlugin.h */,
+				4CFFF4B71D4B67BF0074312D /* RetainCycleLoggerPlugin.m */,
+				4CFFF4B81D4B67BF0074312D /* UIColor+MyColor.h */,
+				4CFFF4B91D4B67BF0074312D /* UIColor+MyColor.m */,
+			);
+			path = Third;
 			sourceTree = "<group>";
 		};
 		DD19947E846A1DCB70FB1552 /* Frameworks */ = {
@@ -386,14 +404,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CFFF4BA1D4B67BF0074312D /* CacheCleanerPlugin.m in Sources */,
+				4CFFF4BC1D4B67BF0074312D /* UIColor+MyColor.m in Sources */,
 				4C00B6831D3F325C00CD4FA2 /* BasicAnimationVC.m in Sources */,
 				4C00B6771D3F309D00CD4FA2 /* CirclePointAnimationView.m in Sources */,
+				4CFFF4BB1D4B67BF0074312D /* RetainCycleLoggerPlugin.m in Sources */,
 				4C00B6471D3F2EFE00CD4FA2 /* ViewController.m in Sources */,
 				4C24DBC91D40B23800FB6B90 /* DrawLineAnimationView.m in Sources */,
 				4C00B67E1D3F30B500CD4FA2 /* AnimationViewController.m in Sources */,
 				4C00B6441D3F2EFE00CD4FA2 /* AppDelegate.m in Sources */,
 				4C24DBC51D40676A00FB6B90 /* CircleAnimationView.m in Sources */,
-				4C00B67B1D3F30A800CD4FA2 /* UIColor+MyColor.m in Sources */,
 				4C00B6861D3F4D2200CD4FA2 /* FireworksView.m in Sources */,
 				4C00B6411D3F2EFD00CD4FA2 /* main.m in Sources */,
 				4C00B6891D3F6C7A00CD4FA2 /* WordsAndDrawerLayer.m in Sources */,
